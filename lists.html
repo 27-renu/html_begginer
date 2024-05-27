@@ -1,26 +1,34 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> lists in html </title>
+        <title> list css</title>
+        <style>
+            .list{
+                list-style:decimal-leading-zero;
+            }
+            .list2{
+                list-style:decimal;
+            }
+            .list3{
+                list-style: lower-alpha;
+            }
+        </style>
+        <body>
+            <ol class="list">
+                <li>name:renu</li>
+                <li>age:19</li>
+                <li>gender:female</li>
+            </ol>
+            <ul class="list3">
+                <li>name:renu</li>
+                <li>age:19</li>
+                <li>gender:female</li>
+            </ul>
+            <ol class="list2">
+                <li>name:renu</li>
+                <li>age:19</li>
+                <li>gender:female</li>
+            </ol>
+        </body>
     </head>
-    <body> 
-        <h1> lists in html </h1>
-        <h4>order list </h4>
-        <ol type="A"> 
-          <li>monday</li>
-          <li>tuesday</li>
-          <li>wednesday</li>
-        </ol>
-        <h4>unorder list</h4>
-        <ul type="dot">
-            <li>thursday</li>
-            <li>friday</li>
-            <li>saturday</li>
-        </ul>
-        <h4>descriptive list</h4>
-        <dl>
-            <dt>html:</dt>
-            <dd> hyper text markup language </dd>
-        </dl>
-    </body>
 </html>
